@@ -15,7 +15,7 @@
 	{
 		$paginaData->content = "<h1>De connectie lukt niet!</h1><p>$e</p>";
 	}
-	$paginaData->content = include_once "views/start.php";
+	$paginaData->content = include_once "views/agescan.php";
 	$pagina = include_once "views/pagina.php";
 	echo $pagina;
 ?>
