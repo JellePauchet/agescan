@@ -6,6 +6,8 @@
 	include_once "models/Pagina_Data.class.php";
 	$paginaData = new Pagina_Data();
 	$paginaData->titel = "ageScan";
+	$paginaData->addCSS ("https://fonts.googleapis.com/css?family=Orbitron");
+	$paginaData->addCSS = ("css/style.css");
 	$dbInfo = "mysql:host=localhost;dbname=agescan"; $dbUser = "root";
 	$dbPassword = "";
 	try 
