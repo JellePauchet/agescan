@@ -19,7 +19,8 @@
 	
 	function goToUrl($url)
 	{
-		$paginaData->content = include_once("views/$url.php");		
+		//$paginaData->content = include_once("views/$url.php");	
+		include_once("views/$url.php");		
 	}
 	
 	$pagina = include_once "views/pagina.php";
