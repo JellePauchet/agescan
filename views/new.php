@@ -24,15 +24,16 @@
 			<form class="form-horizontal" role="form" action="existing.php" method="post" autocomplete="off">
 				<div class="form-group">
 					<label class="control-label col-sm-3" for="Naam">Naam evenement:</label>
-				<div class="col-sm-6">
-					<input type="text" class="form-control" id="Naam">
-				</div>
+					<div class="col-sm-6">
+						<input type="text" class="form-control" id="Naam">
+					</div>
 				</div>
 				<div class="form-group">
 					<label class="control-label col-sm-3" for="Organisator">Organisator:</label>
-				<div class="col-sm-6">
-					<input type="text" class="form-control" id="Organisator">
-				</div>
+					<div class="col-sm-6">
+						<input type="text" class="form-control" id="Organisator">
+					</div>
+				 </div>
 				<div class="form-group">
 					<label class="control-label col-sm-3" for="MinLeeftijd">Minimum leeftijd:</label>
 				<div class="col-sm-6">
