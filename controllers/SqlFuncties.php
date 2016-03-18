@@ -35,6 +35,18 @@
 		}
 	}
 	
+	//geeft aantal max toegangers
+	function MaxFeestgangers($val)
+	{
+		global $link;
+		
+		if ($result=mysqli_query($link, "SELECT MaxAanwezigen FROM evenement WHERE IDEvenement=".$val))
+		{
+			$rowcount=mysqli_fetch_array($result);
+			return $rowcount[0];
+		}
+	}
+	
 	//geeft een array terug met informatie over een feestganger van gegeven id
 	function GetfeestgangerById($val)
 	{

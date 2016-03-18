@@ -3,6 +3,15 @@
 		<div id="leeftijdDiv">
 				<p>{{leeftijd}}</p>
 		</div>
+		<p class="aantal">Aantal bezoekers: 
+		<?php
+			echo CountFeestgangersOpEvenement($_SESSION["EvenementID"]);
+		?>
+		/
+		<?php
+			echo MaxFeestgangers($_SESSION["EvenementID"]);
+		?>
+		</p>
 		<form autocomplete="off" ng-submit="submitBarcode()">
 			<input id ="inputaddress"ng-model="barcode" autofocus/>
 			<input hidden type="submit" id="submit" value="Submit" />
