@@ -5,6 +5,7 @@ body
 	color:#FFF;
 	background-size:cover;
     background-repeat: no-repeat;
+	background-color:#222222;
 }
 
 #AgeScan{
@@ -37,9 +38,18 @@ body
  
  .aantal
  {
-	 font-size: 2em;
-	 width: 500px;
+	 font-size: 4em;
+	 width: 800px;
 	 text-align: center;
 	 margin: auto;
 	 margin-top:20px;
+ }
+ 
+ .rijEvenement
+ {
+	 color: #ffffff;
+	 width: 800px;
+	 margin:auto;
+	 text-align:center;
+	 font-size:2em;
  }

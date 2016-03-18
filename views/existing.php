@@ -8,6 +8,6 @@
 	
 	for($x = 0; $x < $rows; $x++)
 	{
-		echo "<a href='?pagina=agescan&id=".$array[$x][0]."'><div class='rijEvenement'>".$array[$x][1]." -> ".$array[$x][2]."</div></a>";
+		echo "<a class='lijstje' href='?pagina=agescan&id=".$array[$x][0]."'><div class='rijEvenement'>".$array[$x][1]." -> ".$array[$x][2]."</div></a>";
 	}
 ?>
