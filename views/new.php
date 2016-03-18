@@ -21,7 +21,7 @@
 <center>
 	<h1>Voeg een nieuw evenement toe</h1>
 		<div>
-			<form class="form-horizontal" role="form" action="existing.php" method="post" autocomplete="off">
+			<form class="form-horizontal" role="form" action="?pagina=existing" method="post" autocomplete="off">
 				<div class="form-group">
 					<label class="control-label col-sm-3" for="Naam">Naam evenement:</label>
 					<div class="col-sm-6">
