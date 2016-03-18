@@ -16,30 +16,38 @@
 	}
 ?>
 
+
+
 <center>
 	<h1>Voeg een nieuw evenement toe</h1>
-	<div>
-		<form action="?pagina=new" method="post" autocomplete="on">
-			<table>
-				<tr>
-					<td width="180px">Naam evenement</td>
-					<td><input name ="Naam" size="35" required /></td>
-				</tr>
-				<tr>
-					<td>Naam organisator</td>
-					<td><input name ="Organisator" size="35" required /></td>
-				</tr>
-				<tr>
-					<td>Minimum leeftijd</td>
-					<td><input type="number" name ="MinLeeftijd" size="35" required /></td>
-				</tr>
-				<tr>
-					<td>Maximum aanwezigen</td>
-					<td><input type="number" name ="MaxAanwezigen" size="35" required /></td>
-				</tr>
-			</table><br>
-			<input type="submit" id="submit" value="Opslaan en verzenden" />
-		</form><br>
+		<div>
+			<form class="form-horizontal" role="form" action="?pagina=existing" method="post" autocomplete="off">
+				<div class="form-group">
+					<label class="control-label col-sm-3" for="Naam">Naam evenement:</label>
+					<div class="col-sm-6">
+						<input type="text" class="form-control" name="Naam" placeholder="Naam">
+					</div>
+				</div>
+				<div class="form-group">
+					<label class="control-label col-sm-3" for="Organisator">Organisator:</label>
+					<div class="col-sm-6">
+						<input type="text" class="form-control" name="Organisator" placeholder="Organisator">
+					</div>
+				 </div>
+				<div class="form-group">
+					<label class="control-label col-sm-3" for="MinLeeftijd">Minimum leeftijd:</label>
+				<div class="col-sm-6">
+					<input type="text" class="form-control" name="MinLeeftijd" placeholder="Minimum Leeftijd">
+				</div>
+				</div>
+				<div class="form-group">
+					<label class="control-label col-sm-3" for="MaxAanwezigen">Maximum aanwezigen:</label>
+				<div class="col-sm-6">
+					<input type="text" class="form-control" name="MaxAanwezigen" placeholder="Maximum Aanwezigen">
+				</div>
+				</div>
+					<button type="submit" id="submit" class="btn btn-info">Opslaan en verzenden</button>
+			</form><br>
 		<p>Klik op "opslaan en verzenden" om uw uw nieuw evenement te starten</p>
 	</div>
 </center>

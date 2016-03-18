@@ -1,9 +1,34 @@
 body
 {
 	font-family: arial;
+	background-image: url("../img/bg.jpg");
+	color:#FFF;
 }
 
 #AgeScan{
 	font-size:72px;
 	font-family:"Comic Sans MS", cursive, sans-serif;
 }
+#inputaddress
+{
+	width: 0px;
+	border: 0px;
+}
+
+#leeftijdDiv
+{
+	width:450px;
+	height:450px;
+	border-radius:225px;
+	font-size:300px;
+	color:#fff;
+	line-height:450px;
+	text-align:center;
+	background-color:#000;
+	margin-top:50px;
+	margin:auto;
+}
+ .newbuttons {
+	 margin:20px;
+	 
+ }
