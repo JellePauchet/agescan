@@ -21,28 +21,28 @@
 <center>
 	<h1>Voeg een nieuw evenement toe</h1>
 		<div>
-			<form class="form" role="form" action="existing.php" method="post" autocomplete="off">
+			<form class="form-horizontal" role="form" action="existing.php" method="post" autocomplete="off">
 				<div class="form-group">
 					<label for="Naam">Naam evenement:</label>
 				<div class="col-sm-8">
-					<input type="name" class="form-control" id="Naam">
+					<input type="text" class="form-control" id="Naam">
 				</div>
 				</div>
 				<div class="form-group">
 					<label for="Organisator">Organisator:</label>
 				<div class="col-sm-8">
-					<input type="name" class="form-control" id="Organisator">
+					<input type="text" class="form-control" id="Organisator">
 				</div>
 				<div class="form-group">
 					<label for="MinLeeftijd">Minimum leeftijd:</label>
 				<div class="col-sm-8">
-					<input type="name" class="form-control" id="MinLeeftijd">
+					<input type="text" class="form-control" id="MinLeeftijd">
 				</div>
 				</div>
 				<div class="form-group">
 					<label for="MaxAanwezigen">Maximum aanwezigen:</label>
 				<div class="col-sm-8">
-					<input type="name" class="form-control" id="MaxAanwezigen">
+					<input type="text" class="form-control" id="MaxAanwezigen">
 				</div>
 				</div>
 					<button type="submit" id="submit" class="btn btn-default">Opslaan en verzenden</button>
