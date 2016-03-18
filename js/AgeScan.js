@@ -60,6 +60,7 @@ app.controller('AgeScanController', ['$scope', function ($scope) {
 			{
 				var leeftijd = Math.abs(ageDate.getUTCFullYear() - 1970);
 				counter++;
+				increment();
 			}
 			else
 			{

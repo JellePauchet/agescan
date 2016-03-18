@@ -15,10 +15,19 @@
 		<div id="leeftijdDiv">
 				<p>{{leeftijd}}</p>
 		</div>
-		<p class="aantal">Aantal bezoekers: 
-		<?php
-			echo CountFeestgangersOpEvenement($_SESSION["EvenementID"]);
-		?>
+		<p class="aantal">Aantal bezoekers:
+		<p id="bezoekers">
+			<script>
+				var aantal = <?php echo CountFeestgangersOpEvenement($_SESSION["EvenementID"]) ?>;
+				document.getElementById('bezoekers').innerHTML = aantal;
+				
+				function increment()
+				{
+					aantal+= 0.5;
+					document.getElementById('bezoekers').innerHTML = aantal;
+				}
+			</script>
+		</p>
 		/
 		<?php
 			echo MaxFeestgangers($_SESSION["EvenementID"]);
