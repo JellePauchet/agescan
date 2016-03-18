@@ -22,9 +22,15 @@
 
 	<?php
 		include_once('controllers/linkdb.php');
-		$sql = "SELECT * FROM evenement";
 		include_once('controllers/SqlFuncties.php');
-		echo countSQL($link, $sql);
+		
+		echo "aantal evenementen: ". countEvents() . "<br>";
+		echo "info over user 1: <pre>". print_r(GetfeestgangerById(1), true) ."</pre><br>";
+		echo "info over user met RRNR 8378773: <pre>". print_r(GetfeestgangerByRRNR(8378773), true) ."</pre><br>";
+		echo "aantal feestgangers: ". CountFeestgangers()."<br>";
+		echo "aantal feestgangers op het evenement met de ID 1: ". CountFeestgangersOpEvenement(1)."<br>";
+		
+		echo "<br>";
 	?>
 	
 </body>
