@@ -31,11 +31,11 @@
   </div>
   <div class="form-group">
     <label for="MinLeeftijd">Minimum Leeftijd:</label>
-    <input type="name" class="form-control" id="MinLeeftijd">
+    <input type="number" class="form-control" id="MinLeeftijd">
   </div>
   <div class="form-group">
     <label for="MaxAanwezigen">Maximum Leeftijd:</label>
-    <input type="name" class="form-control" id="MaxAanwezigen">
+    <input type="number" class="form-control" id="MaxAanwezigen">
   </div>
   
   <button type="submit" id="submit" class="btn btn-default">Submit</button>
