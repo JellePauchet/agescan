@@ -1,6 +1,6 @@
 </div>
 		
-		<div class="navbar navbar-default navbar-fixed-bottom">
+		<div class="navbar navbar-inverse navbar-fixed-bottom">
 			<div class="container">
 				<p class="navbar-text">Deze site is gemaakt door <a href="http://teamcrap.be">Team Crap</a></p>
 			</div>

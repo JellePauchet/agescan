@@ -3,6 +3,11 @@
 	{
 		$_SESSION["EvenementID"] = $_GET["id"];
 	}
+	
+	if(!isset($_SESSION["EvenementID"]))
+	{
+		echo '<META http-equiv="refresh" content="0;URL=?pagina=start">';
+	}
 ?>
 
 <div ng-app="AgeScan">
