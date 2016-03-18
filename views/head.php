@@ -22,7 +22,7 @@
 		<div class="navbar navbar-inverse navbar-static-top">
 			<div class="container">
 				<div class="navbar-header">
-				<a href="#" class="navbar-brand">AgeScan</a>
+				<a href="?pagina=start" class="navbar-brand">AgeScan</a>
 					<button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
@@ -33,8 +33,7 @@
 				<div class="collapse navbar-collapse navHeaderCollapse">
 				
 					<ul class="nav navbar-nav navbar-right">
-					
-						<li class="active"><a href="index.php">Home</a></li>				
+						<li class="active"><a href="?pagina=start">Home</a></li>				
 					</ul>
 				
 				</div>
