@@ -1,7 +1,7 @@
 <?php
 	date_default_timezone_set('Europe/Brussels');
 ?>
-<h1>AgeScan</h1>
+<h1 id="AgeScan" class="text-center">AgeScan</h1>
 <form action="?pagina=new" method="POST"><button type="submit" class="btn btn-primary" aria-haspopup="true" aria-expanded="false">Nieuw Evenement</button></form>
 
 <<<<<<< HEAD

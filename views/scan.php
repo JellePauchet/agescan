@@ -5,7 +5,7 @@
 </head>
 
 <body ng-app="AgeScan">
-	<h1>AGESCAN</h1>
+	<h1 id="AgeScan">AGESCAN</h1>
 	<div ng-controller="AgeScanController">
 		<div id="leeftijdDiv">
 				<p>{{leeftijd}}</p>
