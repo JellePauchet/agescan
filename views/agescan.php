@@ -1,10 +1,4 @@
-<head>
-	<title>AgeScan</title>
-	<link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" type="text/css" href="css/reset.css">
-</head>
-
-<body ng-app="AgeScan">
+<div ng-app="AgeScan">
 	<h1>AGESCAN</h1>
 	<div ng-controller="AgeScanController">
 		<div id="leeftijdDiv">
@@ -20,10 +14,7 @@
 	<script type='text/javascript' src="http://ajax.googleapis.com/ajax/libs/angularjs/1.0.4/angular.js"></script>
 	<script type='text/javascript' src="js/AgeScan.js"></script>
 
-	<?php
-		include_once('controllers/linkdb.php');
-		include_once('controllers/SqlFuncties.php');
-		
+	<?php		
 		echo "aantal evenementen: ". countEvents() . "<br>";
 		echo "info over user 1: <pre>". print_r(GetfeestgangerById(1), true) ."</pre><br>";
 		echo "info over user met RRNR 8378773: <pre>". print_r(GetfeestgangerByRRNR(8378773), true) ."</pre><br>";
@@ -33,4 +24,4 @@
 		echo "<br>";
 	?>
 	
-</body>
+</div>

@@ -1,3 +1,8 @@
+<?php
+	session_start();
+	include_once('controllers/linkdb.php');
+	include_once('controllers/SqlFuncties.php');
+?>
 <!DOCTYPE html>
 <html>
 	<head>
