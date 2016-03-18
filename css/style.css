@@ -3,7 +3,7 @@ body
 	font-family: arial;
 	background-image: url("../img/bg.jpg");
 	color:#FFF;
-	background-size: 100% 100%;
+	width:100%;
     background-repeat: no-repeat;
 }
 
