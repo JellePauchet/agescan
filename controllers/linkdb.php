@@ -1,8 +1,15 @@
 <?php
-$conn = new mysqli("localhost","root","","agescan");
-
-if ($conn->connect_error) {
-    die("Connection failed: " . $conn->connect_error);
-} 
-//echo "Connected successfully";
+	$dbhost ='localhost';
+	$dbuser ='root';
+	$dbpassword ='';
+	$dbdatabase ='agescan';
+	
+	$link = mysqli_Connect($dbhost , $dbuser , $dbpassword , $dbdatabase);
+	
+	/*Verbinding controleren*/
+	if(mysqli_connect_error())
+	{
+		echo("connection failed!, ". mysqli_connect_error());
+		exit();
+	}
 ?>
