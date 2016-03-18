@@ -53,3 +53,13 @@ body
 	 text-align:center;
 	 font-size:2em;
  }
+ 
+  #bezoekers
+ {
+	 font-size: 4em;
+	 width: 800px;
+	 text-align: center;
+	 margin: auto;
+	 margin-top:20px;
+ }
+ 

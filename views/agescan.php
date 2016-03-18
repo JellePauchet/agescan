@@ -28,7 +28,7 @@
 				}
 			</script>
 		</p>
-		/
+		<p class= "aantal">van de </p>
 		<?php
 			echo MaxFeestgangers($_SESSION["EvenementID"]);
 		?>
