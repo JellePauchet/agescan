@@ -64,10 +64,30 @@
 	{
 		global $link;
 		
-		if ($result=mysqli_query($link, "SELECT * FROM evenement WHERE Naam=".$val))
+		if ($result=mysqli_query($link, "SELECT * FROM evenement WHERE Naam='".$val."'"))
 		{
-			$rowcount=mysqli_num_rows($result);
+			$rowcount = mysqli_num_rows($result);
 			return $rowcount;
+		}
+	}
+	
+	//nieuw evenement met de gegeven waarden toevoegen
+	function InsertNewEvenement($naam, $organisator, $minLeeftijd, $maxAanwezigen)
+	{
+		global $link;
+			
+		$result=mysqli_query($link,"INSERT INTO evenement VALUES ('','$naam','$organisator',$minLeeftijd,$maxAanwezigen);");
+	}
+	
+	//zoekt de id van een evenement van een gegeven naam
+	function GetEventIdByName($val)
+	{
+		global $link;
+		
+		if ($result=mysqli_query($link,"SELECT IDEvenement FROM evenement WHERE Naam ='".$val."'"))
+		{
+			$array = mysqli_fetch_assoc($result);
+			return $array;
 		}
 	}
 ?>
