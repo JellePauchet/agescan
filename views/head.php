@@ -34,7 +34,7 @@
 				
 					<ul class="nav navbar-nav navbar-right">
 					
-						<li class="active"><a href="index.html">Home</a></li>				
+						<li class="active"><a href="index.php">Home</a></li>				
 					</ul>
 				
 				</div>
