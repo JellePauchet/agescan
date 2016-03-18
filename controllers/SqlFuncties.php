@@ -58,4 +58,16 @@
 			return $array;
 		}
 	}
+	
+	//tellen hoeveel evenementen er met de gegeven naam bestaan
+	function countAantalEvenementenMetDezelfdeNaam($val)
+	{
+		global $link;
+		
+		if ($result=mysqli_query($link, "SELECT * FROM evenement WHERE Naam=".$val))
+		{
+			$rowcount=mysqli_num_rows($result);
+			return $rowcount;
+		}
+	}
 ?>
