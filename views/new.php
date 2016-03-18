@@ -21,7 +21,7 @@
 <center>
 	<h1>Voeg een nieuw evenement toe</h1>
 		<div>
-			<form class="form-inline" role="form" action="existing.php" method="post" autocomplete="off">
+			<form class="form" role="form" action="existing.php" method="post" autocomplete="off">
 				<div class="form-group">
 					<label for="Naam">Naam evenement:</label>
 				<div class="col-sm-8">
