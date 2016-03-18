@@ -15,12 +15,12 @@ body
 
 #leeftijdDiv
 {
-	width:500px;
-	height:500px;
-	border-radius:250px;
+	width:450px;
+	height:450px;
+	border-radius:225px;
 	font-size:300px;
 	color:#fff;
-	line-height:500px;
+	line-height:450px;
 	text-align:center;
 	background-color:#000;
 	margin-top:50px;
