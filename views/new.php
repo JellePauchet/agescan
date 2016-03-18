@@ -19,27 +19,27 @@
 <center>
 	<h1>Voeg een nieuw evenement toe</h1>
 	<div>
-		<form action="?pagina=new" method="post" autocomplete="on">
-			<table>
-				<tr>
-					<td width="180px">Naam evenement</td>
-					<td width="180px"><input name ="Naam" size="35"/></td>
-				</tr>
-				<tr>
-					<td width="180px">Naam organisator</td>
-					<td width="180px"><input name ="Organisator" size="35"/></td>
-				</tr>
-				<tr>
-					<td width="180px">Minimum leeftijd</td>
-					<td width="180px"><input type="number" name ="MinLeeftijd" size="35"/></td>
-				</tr>
-				<tr>
-					<td width="180px">Maximum aanwezigen</td>
-					<td width="180px" ><input type="number" name ="MaxAanwezigen" size="35"/></td>
-				</tr>
-			</table><br>
-			<input type="submit" id="submit" value="Opslaan en verzenden" />
-		</form><br>
-		<p>Klik op "opslaan en verzenden" om uw uw nieuw evenement te starten</p>
+
+	<form role="form" autocomplete="off">
+  <div class="form-group">
+    <label for="Naam">Naam:</label>
+    <input type="name" class="form-control" id="Naam">
+  </div>
+  <div class="form-group">
+    <label for="Organisator">Organisator:</label>
+    <input type="name" class="form-control" id="Organisator">
+  </div>
+  <div class="form-group">
+    <label for="MinLeeftijd">Minimum Leeftijd:</label>
+    <input type="name" class="form-control" id="MinLeeftijd">
+  </div>
+  <div class="form-group">
+    <label for="MaxAanwezigen">Maximum Leeftijd:</label>
+    <input type="name" class="form-control" id="MaxAanwezigen">
+  </div>
+  
+  <button type="submit" id="submit" class="btn btn-default">Submit</button>
+</form>
+
 	</div>
 </center>

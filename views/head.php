@@ -33,7 +33,6 @@
 				<div class="collapse navbar-collapse navHeaderCollapse">
 				
 					<ul class="nav navbar-nav navbar-right">
-					
 						<li class="active"><a href="?pagina=start">Home</a></li>				
 					</ul>
 				
