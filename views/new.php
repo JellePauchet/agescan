@@ -23,25 +23,25 @@
 		<div>
 			<form class="form-horizontal" role="form" action="existing.php" method="post" autocomplete="off">
 				<div class="form-group">
-					<label for="Naam">Naam evenement:</label>
-				<div class="col-sm-8">
+					<label class="control-label col-sm-2" for="Naam">Naam evenement:</label>
+				<div class="col-sm-6">
 					<input type="text" class="form-control" id="Naam">
 				</div>
 				</div>
 				<div class="form-group">
-					<label for="Organisator">Organisator:</label>
-				<div class="col-sm-8">
+					<label class="control-label col-sm-2" for="Organisator">Organisator:</label>
+				<div class="col-sm-6">
 					<input type="text" class="form-control" id="Organisator">
 				</div>
 				<div class="form-group">
-					<label for="MinLeeftijd">Minimum leeftijd:</label>
-				<div class="col-sm-8">
+					<label class="control-label col-sm-2" for="MinLeeftijd">Minimum leeftijd:</label>
+				<div class="col-sm-6">
 					<input type="text" class="form-control" id="MinLeeftijd">
 				</div>
 				</div>
 				<div class="form-group">
-					<label for="MaxAanwezigen">Maximum aanwezigen:</label>
-				<div class="col-sm-8">
+					<label class="control-label col-sm-2" for="MaxAanwezigen">Maximum aanwezigen:</label>
+				<div class="col-sm-6">
 					<input type="text" class="form-control" id="MaxAanwezigen">
 				</div>
 				</div>
