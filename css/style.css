@@ -3,6 +3,8 @@ body
 	font-family: arial;
 	background-image: url("../img/bg.jpg");
 	color:#FFF;
+	background-size:cover;
+    background-repeat: no-repeat;
 }
 
 #AgeScan{
@@ -24,7 +26,7 @@ body
 	color:#fff;
 	line-height:450px;
 	text-align:center;
-	background-color:#000;
+	background-color:#222222;
 	margin-top:50px;
 	margin:auto;
 }
