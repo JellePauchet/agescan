@@ -25,28 +25,28 @@
 				<div class="form-group">
 					<label class="control-label col-sm-3" for="Naam">Naam evenement:</label>
 					<div class="col-sm-6">
-						<input type="text" class="form-control" id="Naam">
+						<input type="text" class="form-control" id="Naam" placeholder="Naam">
 					</div>
 				</div>
 				<div class="form-group">
 					<label class="control-label col-sm-3" for="Organisator">Organisator:</label>
 					<div class="col-sm-6">
-						<input type="text" class="form-control" id="Organisator">
+						<input type="text" class="form-control" id="Organisator" placeholder="Organisator">
 					</div>
 				 </div>
 				<div class="form-group">
 					<label class="control-label col-sm-3" for="MinLeeftijd">Minimum leeftijd:</label>
 				<div class="col-sm-6">
-					<input type="text" class="form-control" id="MinLeeftijd">
+					<input type="text" class="form-control" id="MinLeeftijd" placeholder="Minimum Leeftijd">
 				</div>
 				</div>
 				<div class="form-group">
 					<label class="control-label col-sm-3" for="MaxAanwezigen">Maximum aanwezigen:</label>
 				<div class="col-sm-6">
-					<input type="text" class="form-control" id="MaxAanwezigen">
+					<input type="text" class="form-control" id="MaxAanwezigen" placeholder="Maximum Aanwezigen">
 				</div>
 				</div>
-					<button type="submit" id="submit" class="btn btn-default">Opslaan en verzenden</button>
+					<button type="submit" id="submit" class="btn btn-info">Opslaan en verzenden</button>
 			</form><br>
 		<p>Klik op "opslaan en verzenden" om uw uw nieuw evenement te starten</p>
 	</div>
