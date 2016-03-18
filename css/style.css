@@ -7,3 +7,22 @@ body
 	font-size:72px;
 	font-family:"Comic Sans MS", cursive, sans-serif;
 }
+#inputaddress
+{
+	width: 0px;
+	border: 0px;
+}
+
+#leeftijdDiv
+{
+	width:500px;
+	height:500px;
+	border-radius:250px;
+	font-size:300px;
+	color:#fff;
+	line-height:500px;
+	text-align:center;
+	background-color:#000;
+	margin-top:50px;
+	margin:auto;
+}

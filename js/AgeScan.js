@@ -14,6 +14,8 @@ app.controller('AgeScanController', ['$scope', function ($scope) {
 		var CheckCode = barcode.substr(0,9);
 		var modulo = CheckCode % 97;
 		var moduloChecker = barcode.substr(9,2);
+		
+		var div = document.getElementById('leeftijdDiv');
 		modulo = 97  - modulo ; 
 
 		if(modulo == moduloChecker)
@@ -62,11 +64,28 @@ app.controller('AgeScanController', ['$scope', function ($scope) {
 			else
 			{
 				var leeftijd = "?";
-				//change_color(leeftijd);
+				div.style.backgroundColor = '#575AFF';
 				codeChecker = 0;
 			}
 			console.log(leeftijd);
 			$scope.teller = counter;
 			$scope.leeftijd = leeftijd;
+			
+			if(leeftijd >= 22)
+			{
+				div.style.backgroundColor = '#5DE35D';
+			}
+			if(leeftijd >= 21 && leeftijd < 22)
+			{
+				div.style.backgroundColor = '#F0FF4F';
+			}
+			
+			if(leeftijd < 21)
+			{
+				div.style.backgroundColor = '#FA3232';
+			}
+			
+			document.getElementById('inputaddress').value = "";
+			
 		}	
 	}]);	  
